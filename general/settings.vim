@@ -28,8 +28,8 @@ set showtabline=2                       " Always show tabs
 set nobackup                            " This is recommended by coc
 set nowritebackup                       " This is recommended by coc
 set signcolumn=yes                      " Always show the signcolumn, otherwise it would shift the text each time
-set updatetime=900                      " Faster completion
-set timeoutlen=400                      " By default timeoutlen is 1000 ms
+set updatetime=500                      " Faster completion
+set timeoutlen=300                      " By default timeoutlen is 1000 ms
 set clipboard=unnamedplus               " Copy paste between vim and everything else
 set incsearch
 set guifont=Fira\ Code\ Nerd\ Font

@@ -20,4 +20,5 @@
     \ 'coc-yank',
     \ 'coc-json',
     \ 'coc-marketplace',
+    \ 'coc-todolist',
     \ ]

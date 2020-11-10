@@ -11,6 +11,10 @@ call plug#begin()
     Plug 'jiangmiao/auto-pairs'
     " Closetags
     Plug 'alvan/vim-closetag'
+    " Syntax higlighting
+    Plug 'sheerun/vim-polyglot'
+    " Plug 'yuezk/vim-js'
+    Plug 'maxmellon/vim-jsx-pretty'
     " Themes
     Plug 'christianchiarulli/nvcode.vim'
     Plug 'morhetz/gruvbox'
@@ -20,6 +24,9 @@ call plug#begin()
     Plug 'tomasiser/vim-code-dark'
     Plug 'arcticicestudio/nord-vim'
     Plug 'vim-airline/vim-airline-themes'
+    Plug 'crusoexia/vim-monokai'
+    Plug 'phanviet/vim-monokai-pro'
+    Plug 'patstockwell/vim-monokai-tasty'
     " Intellisense
     Plug 'neoclide/coc.nvim', {'branch': 'release'}
     "Async stuff

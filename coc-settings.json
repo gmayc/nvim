@@ -5,11 +5,10 @@
     "function": ""
   },
 
-  "diagnostic.errorSign": " ",
-  "diagnostic.warningSign": " ",
-  "diagnostic.infoSign": "",
-  "diagnostic.hintSign": " ",
-
+  // "diagnostic.errorSign": " ",
+  // "diagnostic.warningSign": " ",
+  // "diagnostic.infoSign": "",
+  // "diagnostic.hintSign": " ",
 
   // list
   "list.indicator": ">",
@@ -27,7 +26,6 @@
   ],
   "coc.preferences.hoverTarget": "float",
   "yank.highlight.duration": 200,
-
 
   "snippets.ultisnips.directories": ["UltiSnips", "~/.config/nvim/snips"],
 

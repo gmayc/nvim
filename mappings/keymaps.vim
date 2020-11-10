@@ -9,6 +9,7 @@ vnoremap < <gv
 vnoremap > >gv
 
 inoremap ii <Esc>
+inoremap kk <Esc>
 
 " TAB in general mode will move to text buffer
 nnoremap <silent> <TAB> :bnext<CR>
