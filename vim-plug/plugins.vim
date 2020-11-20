@@ -16,7 +16,6 @@ call plug#begin()
     " Plug 'yuezk/vim-js'
     Plug 'maxmellon/vim-jsx-pretty'
     " Themes
-    Plug 'christianchiarulli/nvcode.vim'
     Plug 'morhetz/gruvbox'
     Plug 'ayu-theme/ayu-vim'
     Plug 'kaicataldo/material.vim'
@@ -56,4 +55,18 @@ call plug#begin()
     " Rainbow brackets
     Plug 'luochen1990/rainbow'
     Plug 'terryma/vim-multiple-cursors'
+    " highlight all matches under cursor
+    Plug 'RRethy/vim-illuminate'
+    " Start screen
+    Plug 'mhinz/vim-startify'
+    " Intuitive buffer closing
+    Plug 'moll/vim-bbye'    
+    " window swapping
+    Plug 'wesQ3/vim-windowswap'
 call plug#end()
+
+
+autocmd VimEnter *
+  \  if len(filter(values(g:plugs), '!isdirectory(v:val.dir)'))
+  \|   PlugInstall --sync | q
+  \| endif

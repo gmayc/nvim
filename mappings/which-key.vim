@@ -24,7 +24,7 @@ let g:which_key_map['/'] = [ ':call Comment()'                    , 'comment' ]
 let g:which_key_map['.'] = [ ':e $MYVIMRC'                        , 'open init' ]
 let g:which_key_map[';'] = [ ':Commands'                          , 'commands' ]
 let g:which_key_map['='] = [ '<C-W>='                             , 'balance windows' ]
-let g:which_key_map['d'] = [ ':bdelete'                           , 'delete buffer']
+let g:which_key_map['d'] = [ ':Bdelete'                           , 'delete buffer']
 let g:which_key_map['e'] = [ ':CocCommand explorer'               , 'explorer' ]
 let g:which_key_map['h'] = [ '<C-W>s'                             , 'split below']
 let g:which_key_map['m'] = [ ':call WindowSwap#EasyWindowSwap()'  , 'move window' ]
@@ -36,6 +36,7 @@ let g:which_key_map['u'] = [ ':UndotreeToggle'                    , 'undo tree']
 let g:which_key_map['v'] = [ '<C-W>v'                             , 'split right']
 let g:which_key_map['W'] = [ 'w'                                  , 'write' ]
 let g:which_key_map['y'] = [ ':CocList -A --normal yank'          , 'open yank list']
+let g:which_key_map['z'] = [ ':q!'                                  , 'quit without saving' ]
 
 " Group mappings
 
