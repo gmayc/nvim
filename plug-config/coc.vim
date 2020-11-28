@@ -43,7 +43,7 @@ let g:coc_explorer_global_presets = {
 \ }
 
 " Open on enter
-autocmd User CocNvimInit :CocCommand explorer
+" autocmd User CocNvimInit :CocCommand explorer
 " Close on last buffer
 autocmd BufEnter * if (winnr("$") == 1 && &filetype == 'coc-explorer') | q | endif
 

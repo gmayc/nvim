@@ -49,14 +49,14 @@ call plug#begin()
     " Auto change html tags
     Plug 'AndrewRadev/tagalong.vim'
     " Markdown Preview
-    Plug 'iamcco/markdown-preview.nvim', { 'do': { -> mkdp#util#install() } }
+    Plug 'iamcco/markdown-preview.nvim', { 'do': { -> mkdp#util#install() }, 'for': ['markdown', 'vim-plug']}
     " Colorizer
     Plug 'norcalli/nvim-colorizer.lua'
     " Rainbow brackets
     Plug 'luochen1990/rainbow'
     Plug 'terryma/vim-multiple-cursors'
     " highlight all matches under cursor
-    Plug 'RRethy/vim-illuminate'
+    " Plug 'RRethy/vim-illuminate'
     " Start screen
     Plug 'mhinz/vim-startify'
     " Intuitive buffer closing

@@ -5,16 +5,9 @@
     "function": ""
   },
 
-  // "diagnostic.errorSign": " ",
-  // "diagnostic.warningSign": " ",
-  // "diagnostic.infoSign": "",
-  // "diagnostic.hintSign": " ",
-
-  // list
   "list.indicator": ">",
   "list.selectedSignText": " ",
 
-  // autoformat
   "coc.preferences.formatOnSaveFiletypes": [
     "css",
     "markdown",
@@ -29,13 +22,11 @@
 
   "snippets.ultisnips.directories": ["UltiSnips", "~/.config/nvim/snips"],
 
-  // emmet
   "emmet.includeLanguages": {
     "vue-html": "html",
     "javascript": "javascriptreact"
   },
 
-  // explorer
   "explorer.width": 30,
   "explorer.icon.enableNerdfont": true,
   "explorer.previewAction.onHover": false,
