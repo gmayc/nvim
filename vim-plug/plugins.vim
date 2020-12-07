@@ -63,6 +63,8 @@ call plug#begin()
     Plug 'moll/vim-bbye'    
     " window swapping
     Plug 'wesQ3/vim-windowswap'
+    " Tree sitter colors?
+    " Plug 'nvim-treesitter/nvim-treesitter', {'do': ':TSUpdate'}  " We recommend updating the parsers on update
 call plug#end()
 
 
