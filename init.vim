@@ -6,6 +6,16 @@
 
 " Install plugins
 source $HOME/.config/nvim/vim-plug/plugins.vim
+" General settings
+source $HOME/.config/nvim/general/settings.vim
+" Keymaps
+source $HOME/.config/nvim/mappings/keymaps.vim
+if exists('g:vscode')
+  " VS Code extension
+  source $HOME/.config/nvim/vscode/settings.vim
+  " source $HOME/.config/nvim/plug-config/easymotion.vim
+  " source $HOME/.config/nvim/plug-config/highlightyank.vim
+else
 
 " Plugins configs
 source $HOME/.config/nvim/plug-config/coc.vim
@@ -23,9 +33,6 @@ source $HOME/.config/nvim/themes/monokai.vim
 " source $HOME/.config/nvim/themes/monokai-tasty.vim
 " source $HOME/.config/nvim/themes/nord.vim
 
-" General settings
-source $HOME/.config/nvim/general/settings.vim
-" Keymaps
-source $HOME/.config/nvim/mappings/keymaps.vim
 " Which-Keymaps
 source $HOME/.config/nvim/mappings/which-key.vim
+endif

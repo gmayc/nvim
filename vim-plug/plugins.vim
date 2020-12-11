@@ -27,7 +27,9 @@ call plug#begin()
     Plug 'phanviet/vim-monokai-pro'
     Plug 'patstockwell/vim-monokai-tasty'
     " Intellisense
-    Plug 'neoclide/coc.nvim', {'branch': 'release'}
+    if !exists('g:vscode')
+         Plug 'neoclide/coc.nvim', {'branch': 'release'}
+    endif
     "Async stuff
     Plug 'skywind3000/asynctasks.vim'
     Plug 'skywind3000/asyncrun.vim'

@@ -1,5 +1,8 @@
 let g:netrw_dirhistmax  =10
-let g:netrw_dirhistcnt =6
+let g:netrw_dirhistcnt =9
+let g:netrw_dirhist_9='/home/mayc/.config/nvim/utils/vscode_config'
+let g:netrw_dirhist_8='/home/mayc/.config/nvim/utils'
+let g:netrw_dirhist_7='/home/mayc/.config/nvim'
 let g:netrw_dirhist_6='/home/mayc/notes'
 let g:netrw_dirhist_5='/home/mayc/.config/nvim'
 let g:netrw_dirhist_4='/home/mayc/.config/nvim/themes'
