@@ -8,7 +8,7 @@ let g:mkdp_auto_start = 0
 " set to 1, the nvim will auto close current preview window when change
 " from markdown buffer to another buffer
 " default: 1
-let g:mkdp_auto_close = 1
+let g:mkdp_auto_close = 0
 
 " set to 1, the vim will refresh markdown when save the buffer or
 " leave from insert mode, default 0 is auto refresh markdown as you edit or
@@ -43,11 +43,11 @@ let g:mkdp_echo_preview_url = 1
 " a custom vim function name to open preview page
 " this function will receive url as param
 " default is empty
-function! g:Open_browser(url)
-    silent exe 'open -a Firefox 'a:url
-endfunction
+" function! g:Open_browser(url)
+"     silent exe 'open -a Firefox 'a:url
+" endfunction
 
-let g:mkdp_browserfunc = 'g:Open_browser'
+" let g:mkdp_browserfunc = 'g:Open_browser'
 
 " options for markdown render
 " mkit: markdown-it options for render
