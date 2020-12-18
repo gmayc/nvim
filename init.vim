@@ -9,7 +9,7 @@ source $HOME/.config/nvim/vim-plug/plugins.vim
 
 " Plugins configs
 source $HOME/.config/nvim/plug-config/coc.vim
-" source $HOME/.config/nvim/plug-config/mkdpv.vim
+source $HOME/.config/nvim/plug-config/fzfrg.vim
 
 " Themes comment/uncomment themes configs to change
 source $HOME/.config/nvim/themes/airline.vim

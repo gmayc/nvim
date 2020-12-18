@@ -63,6 +63,8 @@ call plug#begin()
     Plug 'moll/vim-bbye'    
     " window swapping
     Plug 'wesQ3/vim-windowswap'
+    " Find and Replace
+    Plug 'brooth/far.vim'
 call plug#end()
 
 
