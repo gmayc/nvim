@@ -21,6 +21,8 @@ else
 source $HOME/.config/nvim/plug-config/coc.vim
 source $HOME/.config/nvim/plug-config/fzfrg.vim
 source $HOME/.config/nvim/plug-config/mkdpv.vim
+source $HOME/.config/nvim/plug-config/far.vim
+
 set termguicolors
 lua require'colorizer'.setup()
 

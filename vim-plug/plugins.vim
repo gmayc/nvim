@@ -67,6 +67,8 @@ call plug#begin()
     Plug 'wesQ3/vim-windowswap'
     " Find and Replace
     Plug 'brooth/far.vim'
+    " Styled components
+    Plug 'styled-components/vim-styled-components', { 'branch': 'main' }
 call plug#end()
 
 
