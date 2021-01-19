@@ -25,7 +25,6 @@ source $HOME/.config/nvim/plug-config/far.vim
 
 set termguicolors
 lua require'colorizer'.setup()
-
 " Themes comment/uncomment themes configs to change
 source $HOME/.config/nvim/themes/airline.vim
 " source $HOME/.config/nvim/themes/ayu.vim
@@ -36,6 +35,7 @@ source $HOME/.config/nvim/themes/monokai.vim
 " source $HOME/.config/nvim/themes/monokai-tasty.vim
 " source $HOME/.config/nvim/themes/nord.vim
 
+highlight Normal guibg=none
 " Which-Keymaps
 source $HOME/.config/nvim/mappings/which-key.vim
 endif
