@@ -1,6 +1,11 @@
 #!/bin/bash
 set -e
 
+if [[ ! -e ~/.tmux.conf ]]; then
+    echo "tmux conf not found, copying to home folder..."
+    cp ./.tmux.conf ~/
+fi
+
 echo "Installing fzf..."
 if [[ ! -e ~/.fzf ]]; then
 git clone --depth 1 https://github.com/junegunn/fzf.git ~/.fzf
