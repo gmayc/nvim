@@ -1,9 +1,11 @@
-#/bin/bash
+#!/bin/bash
 set -e
 
 echo "Installing fzf..."
+if [[ ! -e ~/.fzf ]]; then
 git clone --depth 1 https://github.com/junegunn/fzf.git ~/.fzf
 ~/.fzf/install
+fi
 
 echo "Installing neovim"
 sudo apt install neovim
@@ -17,4 +19,5 @@ if [[ -e ~/.config/nvim ]]; then
     rm -rf ~/.config/nvim
 fi
 
-git clone https://gitlab.com/sora-dev/tests-and-stuff/nvim-light.git ~/.config/nvim
+git clone https://github.com/gmayc/nvim.git ~/.config/nvim
+git checkout light
