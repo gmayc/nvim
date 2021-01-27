@@ -20,4 +20,5 @@ if [[ -e ~/.config/nvim ]]; then
 fi
 
 git clone https://github.com/gmayc/nvim.git ~/.config/nvim
+cd ~/.config/nvim
 git checkout light
