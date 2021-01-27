@@ -7,6 +7,7 @@
 " Install plugins
 source $HOME/.config/nvim/vim-plug/plugins.vim
 " General settings
+set rtp+=/usr/local/opt/fzf
 source $HOME/.config/nvim/general/settings.vim
 " Keymaps
 source $HOME/.config/nvim/mappings/keymaps.vim
@@ -24,7 +25,7 @@ source $HOME/.config/nvim/plug-config/mkdpv.vim
 source $HOME/.config/nvim/plug-config/far.vim
 
 set termguicolors
-lua require'colorizer'.setup()
+" lua require'colorizer'.setup()
 " Themes comment/uncomment themes configs to change
 source $HOME/.config/nvim/themes/airline.vim
 " source $HOME/.config/nvim/themes/ayu.vim

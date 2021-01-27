@@ -725,12 +725,6 @@
       "name": "Show...",
       "type": "bindings",
       "bindings": [
-        // {
-        //   "key": "e",
-        //   "name": "Show explorer",
-        //   "type": "command",
-        //   "command": "workbench.view.explorer"
-        // },
         {
           "key": "s",
           "name": "Show search",

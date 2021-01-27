@@ -7,7 +7,6 @@
     \ 'coc-git',
     \ 'coc-tasks',
     \ 'coc-pairs',
-    \ 'coc-tsserver',
     \ 'coc-floaterm',
     \ 'coc-html',
     \ 'coc-css',
