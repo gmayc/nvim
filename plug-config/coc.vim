@@ -19,7 +19,6 @@
     \ 'coc-json',
     \ 'coc-marketplace',
     \ 'coc-todolist',
-    \ 'coc-vimlsp',
     \ ]
 " Explorer
 let g:coc_explorer_global_presets = {
