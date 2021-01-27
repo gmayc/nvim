@@ -51,7 +51,7 @@ call plug#begin()
     " Auto change html tags
     Plug 'AndrewRadev/tagalong.vim'
     " Markdown Preview
-    Plug 'iamcco/markdown-preview.nvim', { 'do': { -> mkdp#util#install() } }
+    " Plug 'iamcco/markdown-preview.nvim', { 'do': { -> mkdp#util#install() } }
     " Colorizer
     Plug 'norcalli/nvim-colorizer.lua'
     " Rainbow brackets

@@ -14,12 +14,12 @@
     \ 'coc-yaml',
     \ 'coc-explorer',
     \ 'coc-prettier',
-    \ 'coc-vimlsp',
     \ 'coc-xml',
     \ 'coc-yank',
     \ 'coc-json',
     \ 'coc-marketplace',
     \ 'coc-todolist',
+    \ 'coc-vimlsp',
     \ ]
 " Explorer
 let g:coc_explorer_global_presets = {
@@ -70,7 +70,7 @@ else
   imap <expr> <cr> pumvisible() ? "\<C-y>" : "\<C-g>u\<CR>"
 endif
 
-nmap <silent> gd <Plug>(coc-definition)
-nmap <silent> gy <Plug>(coc-type-definition)
-nmap <silent> gi <Plug>(coc-implementation)
-nmap <silent> gr <Plug>(coc-references)
+" nmap <silent> gd <Plug>(coc-definition)
+" nmap <silent> gy <Plug>(coc-type-definition)
+" nmap <silent> gi <Plug>(coc-implementation)
+" nmap <silent> gr <Plug>(coc-references)
